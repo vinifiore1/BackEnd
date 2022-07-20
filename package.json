@@ -1,0 +1,24 @@
+{
+  "name": "loginpassport",
+  "version": "1.0.0",
+  "description": "Login utilizando Passport e Banco de Dados Mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "Michael",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.21.3",
+    "yup": "^0.32.11"
+  }
+}
